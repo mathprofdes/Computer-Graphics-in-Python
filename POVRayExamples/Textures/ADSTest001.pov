@@ -1,0 +1,88 @@
+#include "colors.inc" 
+#include "stones.inc"
+
+camera {         
+  location <20, 15, 10>
+  look_at <0, 0, 0>                
+  angle 50
+}
+
+light_source { <2, 10, 5> color White }
+light_source { <-5, 7, -3> color White area_light <1,0,0> <0,0,1> 5, 5}
+         
+plane { <0, 1, 0>, -1
+  pigment { checker color rgb <1,0,0> color rgb <0,0,0> }
+  finish { ambient 0.1 diffuse 0.4 }
+} 
+
+sphere {
+  <-5, 1, -5>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.1 diffuse 0.0 }
+  }
+}
+
+sphere {
+  <-5, 1, 0>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.4  diffuse 0.0 }
+  }
+}
+
+sphere {
+  <-5, 1, 5>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.8  diffuse 0.0 }
+  }
+}
+
+sphere {
+  <0, 1, -5>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.1 diffuse 0.4 }
+  }
+}
+
+sphere {
+  <0, 1, 0>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.4  diffuse 0.4 }
+  }
+}
+
+sphere {
+  <0, 1, 5>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.8  diffuse 0.4 }
+  }
+}
+
+sphere {
+  <5, 1, -5>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.1 diffuse 0.8 }
+  }
+}
+
+sphere {
+  <5, 1, 0>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.4  diffuse 0.8 }
+  }
+}
+
+sphere {
+  <5, 1, 5>, 2
+  texture {
+    pigment { color <0,0,1> }
+    finish { ambient 0.8  diffuse 0.8 }
+  }
+}

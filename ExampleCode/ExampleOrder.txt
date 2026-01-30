@@ -1,0 +1,111 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Python Examples:  Version 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Core Concepts
+
+Introduction
+    OpenGL_Version_Test
+    HelloWorld_Minimal
+    HelloWorld
+	
+Pygame User Interface
+    Keyboard 
+        PyGameUI_KeyboardEvents
+        PyGameUI_KeyboardMdifiers
+        PyGameUI_KeyboardStateProcessing
+        PyGameUI_KeyboardStateProcessingWithTiming
+    
+    Mouse
+        PyGameUI_MouseEvents
+        PyGameUI_MouseToScreenConversion
+        PyGameUI_MouseGeometry
+        PyGameUI_MouseStateProcessing
+
+    Gamepad
+        PyGameUI_Gamepad
+        PyGameUI_GamepadGeometry
+        PyGameUI_GamepadStateProcessing
+
+    Audio
+        PyGameUI_Audio
+
+2-D Graphics
+    DataStorage
+        PlotTypes
+        DataStorageLayouts
+        DataStorageIndexArrays
+        DataStorageBufferSubData
+
+    Transformations
+        AspectRatio
+        ModelTransforms001
+        ModelTransforms002
+        MultipleModelTransforms001
+        MultipleModelTransforms002
+        MultipleModelTransforms003 
+        MultipleModelTransforms2DArm
+        MultipleModelTransforms2DArm002
+        MultipleModelTransforms2DArm003
+
+    Animation
+        FrameRateSync
+        ClockSync 
+
+    ShaderIntroduction
+        BoxAndCircleUniform
+        BoxAndCircleUniformOneShader
+        BoxAndCircleUniformOneShaderMemory
+        BoxAndCircleUniformNoColor
+        StructsInShaders
+        StructsInShadersDictionary
+        StrangeShader
+        BoxAndCircleUniformText
+        
+    MandelbrotSetExplorer
+
+3-D Graphics
+    Cameras
+        Cameras001
+        Cameras002
+        Cameras003
+        CamerasOrthographic
+        
+    Transformations
+
+    Lighting
+        PointLight
+        PointLightAttenuationSpot
+		PointLightAnotherSpot
+        MultipleLights
+		
+    Textures
+        BasicTextures
+        BasicTexturesMoreObjects
+        BasicTexturesTerrain
+        BasicTexturesMultipleTextures
+        BasicTexturesMultipleTextures2
+        BasicTexturesMultipleTextures3
+        MipMapExample
+        MultiTexturing
+        MultiTexturing2
+        TextureTransformations
+        
+    TexturesAndLights
+
+    CubeMapsAndSkyboxes
+        TexturesAndLightsAndCubemap
+        TexturesAndLightsAndSkybox
+        SkyboxReflections
+
+    Blending
+        
+    ShadowMaps
+        ShadowMaps001
+        ShadowMaps002
+
+    OBJModelViewers
+        OBJModelViewer1
+        OBJModelViewer2
+        OBJModelViewer3
+    
